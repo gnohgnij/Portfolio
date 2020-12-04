@@ -3,6 +3,27 @@ html {
     padding: 0;
 }
 
-nav a {
-    font-size: 0.75rem;
+body {
+    background-color: #1F5F8B;
+}
+
+/****************************************Intro**********************************************/
+
+li a {
+    color: white    !important;
+}
+
+.active {
+    background-color: #253B6E;
+    border-radius: 10%;
+}
+
+.nav-link {
+    padding: 0rem 1rem;
+}
+
+img {
+    width: 15vw;
+    border-radius: 50%;
+    display:block;
 }
