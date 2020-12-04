@@ -5,6 +5,7 @@ html {
 
 body {
     background-color: #1F5F8B;
+    font-family: 'Roboto', sans-serif;
 }
 
 /****************************************Intro**********************************************/
@@ -26,4 +27,8 @@ img {
     width: 15vw;
     border-radius: 50%;
     display:block;
+}
+
+h2 {
+    color: #253B6E;
 }
