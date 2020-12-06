@@ -4,9 +4,9 @@
         <title>Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -25,16 +25,50 @@
         <section id="pic">
             <div class="top"></div>
             <div class = "bottom">
-                <img class="img-fluid" src="img/profile.jpg"/>
+                <img class="img-fluid" src="img/profile.jpg" alt="picture of me"/>
             </div>
         </section>
         <section class="text-center" id="intro-text">
-            <h2 class="pt-3">
+            <h2 class="pt-5">
                 Welcome! My name is <strong>Jing Hong</strong> and I am <br> passionate about web development and software <br> engineering
             </h2>
         </section>
+        <section id="works" class="text-center pb-5">
+            <h1><strong>WORKS</strong></h1>
+            <p class="mb-5" style="font-size: 1.5rem; line-height: 1.5rem;">These are some works/projects that <br> I've been involved in</p>
 
-
-        
+            <div class="container-fluid">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-4 px-0">
+                        <img id="spotcheck" class="float-right" src="img/SpotCheck Cover.png" alt="SpotCheck">
+                    </div>
+                    <div class="col-3 px-0 d-flex align-items-center">
+                        <div class="mx-auto">
+                            <h2><strong>SpotCheck</strong></h2>
+                            <a id="view" href="#" class="btn" role="button">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-4">
+                    <div class="col-3 px-0 d-flex align-items-center">
+                        <div class="mx-auto">
+                            <h2><strong>WE!<br>Interactive</strong></h2>
+                            <a id="view" href="#" class="btn" role="button">View</a>
+                        </div>
+                    </div>
+                    <div class="col-4 px-0">
+                        <img id="we" class="float-left" src="img/WE!Cover.png" alt="WE! Interactive">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center py-3">
+            <a href="mailto: ch0109ng@e.ntu.edu.sg" class="mx-3">
+                <i class="fa fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/chongjinghong" class="mx-3" target="_blank">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </footer>
     </body>
 </html> 
